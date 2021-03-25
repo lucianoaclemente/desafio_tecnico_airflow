@@ -67,14 +67,3 @@ task_read_transactions = PythonOperator(
     )
 
 task_read_transactions 
-
-
-'''
-task = BashOperator(
-    task_id='sleeps_forever',
-    dag=dag,
-    bash_command="sleep 10000000000",
-    start_date=days_ago(2),
-    owner='airflow',
-)
-'''
