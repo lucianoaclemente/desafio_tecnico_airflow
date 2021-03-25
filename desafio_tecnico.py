@@ -59,14 +59,14 @@ def read_transactions(ds, **kwargs):
             json.dump(abandoned_list, outfile)
 
 
-run_this = PythonOperator(
+task_read_transactions = PythonOperator(
     task_id='read_transactions',
     python_callable=read_transactions,
     dag=dag, 
     start_date=days_ago(2),  
     )
 
-run_this 
+task_read_transactions 
 
 
 '''
