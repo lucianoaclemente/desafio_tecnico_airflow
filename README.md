@@ -8,6 +8,6 @@ Instruções<br />
 * Copiar o arquivo **desafio_tecnico.py** para **$AIRFLOW_HOME/dags**
 * Criar a pasta **$AIRFLOW_HOME/dags/input** e copiar o arquivo **page-views.json**
 * Criar a pasta **$AIRFLOW_HOME/dags/output**
-<br />
+
 Para executar, digite **airflow dags trigger desafio_tecnico** ou pelo localhost:8080, executando **airflow webserver**. Acesse o gerenciador e inicie a DAG através da action **Trigger DAG**.
 
