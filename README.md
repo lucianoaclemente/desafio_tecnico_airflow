@@ -9,5 +9,5 @@ Instruções<br />
 * Criar a pasta **$AIRFLOW_HOME/dags/input** e copiar o arquivo **page-views.json**
 * Criar a pasta **$AIRFLOW_HOME/dags/output**
 
-Para executar, digite **airflow dags trigger desafio_tecnico** ou pelo localhost:8080, executando **airflow webserver**. Acesse o gerenciador e inicie a DAG através da action **Trigger DAG**.
+Para executar, digite **airflow dags trigger desafio_tecnico** ou pelo localhost:8080, executando **airflow webserver** e **airflow scheduler**. Acesse o gerenciador e inicie a DAG através da action **Trigger DAG**.
 
